@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/artisthubLogo.png" type="image/icon type">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/artisthubLogo.png" alt="Artist Hub Logo">
+            </div>
+            <div class="nav-bar">
+            <div class="nav-container">
+                <nav>
+                    <div class="nav-mobile">
+                        <a href="#" id="nav-toggle">
+                            <span></span>
+                        </a>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#artist">Artists</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#product">Products</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="big">
+            <img src="img/biglogo.png" alt="logo" width="60%">
+        </div>
+        <section class="events">
+            
+            <h2>IMPORTANT EVENTS</h2>
+            <div class="event-list">
+                <div class="event-item">
+                    <img src="/img/ibagiw.jpg" alt="iBagiw Competition">
+                    <p>iBagiw Competition</p>
+                </div>
+                <div class="event-item">
+                    <img src="img/ibagiw.jpg" alt="iBagiw Competition">
+                    <p>Nurturing the Environment</p>
+                </div>
+                <div class="event-item">
+                    <img src="img/ibagiw.jpg" alt="iBagiw Competition">
+                    <p>iBagiw Competition</p>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+<!--Artist-->
+<section id="artist">
+    <div class="artist-container">
+        <div class="artist-item">
+            <img src="https://github.com/ALmiiiii/ArtistHub-BaguioCity/blob/new-branch/artists/kidlat%20tahimik.jpg?raw=true" alt="KidlatTahimik">
+            <button class="bttn" type="button" onclick="location.href='profile.html'"><p>Read More >>></p></button>
+        </div>
+        <div class="artist-item">
+            <img src="https://github.com/ALmiiiii/ArtistHub-BaguioCity/blob/new-branch/artists/bencab.jpg?raw=true" alt="bencab">
+            <button class="bttn" type="button" onclick="location.href='profile.html'"><p>Read More >>></p></button>
+        </div>
+        <div class="artist-item">
+            <img src="https://raw.githubusercontent.com/ALmiiiii/ArtistHub-BaguioCity/refs/heads/new-branch/artists/wang-od.webp" alt="wang-od">
+            <button class="bttn" type="button" onclick="location.href='profile.html'"><p>Read More >>></p></button>
+        </div>
+    </div>
+</section>
+
+<!--Events-->
+<section id="events">
+    <container class="EvntContainer">
+        <h2 class="EvntTitle">
+            UPCOMING EVENTS
+        </h2>
+        <button class="EvntRow">
+            No event yet
+        </button>
+        <button class="EvntRow">
+            No event yet
+        </button>
+        <button class="EvntRow">
+            No event yet
+        </button>
+        <button class="EvntRow">
+            No event yet
+        </button>
+        <button class="EvntRow">
+            No event yet
+        </div>
+        <button class="EvntRow">
+            No event yet
+        </button>
+    </container>
+    </section>
+
+    <!--Products-->
+    <section id="products">
+        
+        </section>
+
+<!--Gallery-->
+<section id="gallery">
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="img/Art-festival.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="img/GBC-BAGUIO.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="img/ibagiw1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="img/Kalasag.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="img/Taon-ng-Labanang.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="img/Museum1.png" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img/Art-festival.jpg" style="width:100%" onclick="currentSlide(1)" alt="Street Painting">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/GBC-BAGUIO.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/ibagiw1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Kalasag.png" style="width:100%" onclick="currentSlide(4)" alt="Kalasag">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Taon-ng-Labanang.jpg" style="width:100%" onclick="currentSlide(5)" alt="Taon ng Laban">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Museum1.png" style="width:100%" onclick="currentSlide(6)" alt="Museum">
+      </div>
+      
+    </div>
+  </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '6706887ba2382c6fe907495e' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+
+</body>
+</html>
