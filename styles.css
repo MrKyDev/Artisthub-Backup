@@ -44,6 +44,7 @@ nav ul{
 nav ul li{
     float: left;
     position: relative;
+    right:50%;
 }
 
 nav ul li a{
@@ -256,6 +257,40 @@ main {
     position: absolute;
     bottom: 9%; 
     right: 25%;  
+    background-color: rgba(0, 0, 0, 0.178);
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bttn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Sign-up*/
+.sign {
+    position: absolute;
+    top: 5%; 
+    right: 9%;  
+    background-color: rgba(0, 0, 0, 0.178);
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bttn:hover {
+    background-color: rgba(221, 35, 35, 0.8);
+}
+
+/*Login*/
+.login {
+    position: absolute;
+    top: 5%; 
+    right: 3%;  
     background-color: rgba(0, 0, 0, 0.178);
     color: white;
     padding: 10px;
